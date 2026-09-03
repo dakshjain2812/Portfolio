@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Daksh Jain — accessible, responsive developer portfolio.">
+  <title>Daksh Jain | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Daksh Jain home">
+        <span class="brand-mark" aria-hidden="true">DJ</span>
+        <span>Daksh Jain</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+          <span class="theme-label">Dark</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Available for creative projects</p>
+          <h1>Building <span class="gradient-text">modern digital experiences</span> with clean code.</h1>
+          <p class="hero-text">
+            I’m Daksh Jain, a computer engineering student and aspiring developer focused on
+            accessible interfaces, responsive websites, and practical software projects.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="projects.html">View Projects <span>↗</span></a>
+            <a class="btn btn-secondary" href="contact.html">Let's Connect</a>
+          </div>
+          <div class="hero-meta" aria-label="Portfolio highlights">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive UI</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-glow"></div>
+            <img src="images/profile.jpg" alt="Portrait of Daksh Jain" class="profile-photo">
+            <div class="profile-info">
+              <strong>Daksh Jain</strong>
+              <span>Computer Engineering Student</span>
+            </div>
+            <div class="code-badge" aria-hidden="true">&lt;/&gt;</div>
+          </div>
+          <div class="floating-chip chip-one">CSS Grid</div>
+          <div class="floating-chip chip-two">Flexbox</div>
+          <div class="floating-chip chip-three">SVG</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / About</p>
+          <h2>Designing with purpose, developing with precision.</h2>
+        </div>
+        <div class="section-content reveal">
+          <p>
+            My portfolio combines semantic HTML, advanced CSS3 architecture and lightweight
+            JavaScript to create interfaces that remain clear and usable on every screen size.
+          </p>
+          <a class="text-link" href="about.html">More about me <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / Skills</p>
+          <h2>My technology toolkit</h2>
+          <p>Modern front-end foundations with an emphasis on responsive architecture.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="icon-box">&lt;/&gt;</div>
+            <h3>HTML5</h3><p>Semantic, accessible and well-structured page architecture.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="icon-box">#</div>
+            <h3>CSS3</h3><p>Grid, Flexbox, variables, animations and responsive systems.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="icon-box">JS</div>
+            <h3>JavaScript</h3><p>Interactive navigation, themes, UI states and progressive enhancement.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="icon-box">◇</div>
+            <h3>SVG</h3><p>Scalable icons and decorative graphics without raster overhead.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section">
+      <div class="container">
+        <div class="section-heading row-heading reveal">
+          <div><p class="eyebrow">03 / Selected work</p><h2>Projects that solve real problems.</h2></div>
+          <a class="text-link desktop-only" href="projects.html">View all projects →</a>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-feature reveal">
+            <div class="project-number">01</div>
+            <div class="project-body">
+              <p class="project-type">Web Application</p>
+              <h3>Recipe Pro Book</h3>
+              <p>Recipe discovery experience built around ingredients, dishes, cuisines and API-driven content.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>REST API</span></div>
+              <a href="projects.html" class="card-link" aria-label="Learn more about Recipe Pro Book">Explore project ↗</a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <div class="project-body">
+              <p class="project-type">Academic Project</p>
+              <h3>Event Registration System</h3>
+              <p>A structured system concept for event registration, participant management and organized data.</p>
+              <div class="tag-list"><span>DBMS</span><span>UI</span><span>System Design</span></div>
+              <a href="projects.html" class="card-link" aria-label="Learn more about Event Registration System">Explore project ↗</a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <div class="project-body">
+              <p class="project-type">Responsive Design</p>
+              <h3>Portfolio Architecture</h3>
+              <p>A mobile-first portfolio system using reusable components and modern CSS layout patterns.</p>
+              <div class="tag-list"><span>CSS Grid</span><span>Flexbox</span><span>SVG</span></div>
+              <a href="#top" class="card-link" aria-label="Return to portfolio architecture">Back to top ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta">
+        <div class="cta-decoration" aria-hidden="true"><span></span><span></span><span></span></div>
+        <p class="eyebrow">04 / Contact</p>
+        <h2>Have an idea? Let's turn it into something useful.</h2>
+        <p>Let’s connect and build a thoughtful digital experience together.</p>
+        <a class="btn btn-primary" href="contact.html">Start a conversation →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>Daksh Jain</strong><p>Accessible. Responsive. Built with purpose.</p></div>
+      <div class="footer-links"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></div>
+      <p class="copyright">© <span id="year"></span> Daksh Jain</p>
+    </div>
+  </footer>
+
+  <button class="back-top" type="button" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
